@@ -6,7 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.stereotype.Component;
 
-
+//This is Synchronous Producer for Kafka using in this project
 @Component
 public final class Producer2 {
 	private static final Logger logger = LogManager.getLogger(Producer2.class);
